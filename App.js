@@ -14,11 +14,14 @@ import KeranjangPage from './src/Screen/Keranjang/Index';
 import PesananPage from './src/Screen/Pesanan/Index';
 import ProfilePage from './src/Screen/Profile/Index';
 import PerincianPesananPage from './src/Screen/Pesanan/Perincian_Pesanan';
+import SuntingProfile from './src/Screen/Profile/Sunting_Profile';
+import EditNamaPage from './src/Screen/Profile/EditNama';
+import EditTanggalLagirPage from './src/Screen/Profile/EditTglLahir';
 
 function App() {
   return (
     <NavigationContainer>
-      <ProfilePage />
+      <KeranjangPage />
     </NavigationContainer>
   );
 }
